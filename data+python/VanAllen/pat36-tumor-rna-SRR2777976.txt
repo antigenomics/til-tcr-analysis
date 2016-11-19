@@ -1,0 +1,2 @@
+count	freq	cdr3nt	cdr3aa	v	d	j	VEnd	DStart	DEnd	JStart	base.ndnsize	base.insertsize	aaprop.strength	aaprop.hydropathy	aaprop.charge	aaprop.polarity
+1	0.14285714285714285	TGTGCCAGTAGGACTTCAGGTAACACTGAAGCTTTCTTT	CASRTSGNTEAFF	TRBV19	.	TRBJ1-1	10	-1	-1	14	3	-1	3.0	-3.199999	0.0	5.0
