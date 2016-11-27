@@ -1,0 +1,2 @@
+count	freq	cdr3nt	cdr3aa	v	d	j	VEnd	DStart	DEnd	JStart	id.in.sample	score	complex.id	gene	cdr3	v.segm	d.segm	j.segm	species	mhc.a	mhc.b	mhc.class	antigen.epitope	antigen.gene	antigen.species	reference.id	vdjdb.score
+1	0.16666666666666666	TGCGCCAGCAGTGGCTCAAACACCGGGGAGCTGTTTTTT	CASSGSNTGELFF	TRBV10-2	.	TRBJ2-2	12	-1	-1	18	4	1311.0997	0	TRB	CASRGADTGELFF	TRBV7-3		TRBJ2-2	HomoSapiens	HLA-B*42:01	B2M	MHCI	HPKVSSEVHI	Vif	HIV-1	PMID:25911754	1
