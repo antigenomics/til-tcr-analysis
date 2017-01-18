@@ -1,0 +1,1 @@
+count	freq	cdr3nt	cdr3aa	v	d	j	VEnd	DStart	DEnd	JStart	base.cdr3length	base.ndnsize	base.insertsize	aaprop.hydropathy	aaprop.charge	aaprop.polarity	aaprop.strength	aaprop.cdr3contact
