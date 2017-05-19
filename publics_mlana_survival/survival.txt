@@ -1,0 +1,468 @@
+SKCM001	518.0	dead	71	Ia	male
+SKCM002	2022.0	alive	82	IIa	male
+SKCM003	395.0	dead	82	IIIa	male
+SKCM004	387.0	alive	46	IIc	female
+SKCM005	14.0	alive	74	IIc	female
+SKCM006	282.0	dead	56	IIIb	male
+SKCM007	853.0	alive	71	IIb	female
+SKCM008	831.0	alive	80	IIc	male
+SKCM009	464.0	alive	36	IIIb	female
+SKCM010	769.0	alive	84	IIIb	female
+SKCM011	601.0	alive	63	IIa	male
+SKCM012	717.0	alive	81	IIIc	female
+SKCM013	703.0	alive	65	IIc	male
+SKCM014	335.0	alive	75	IIIc	female
+SKCM015	323.0	alive	63	IIc	male
+SKCM016	327.0	alive	63	IIc	male
+SKCM017	490.0	alive	76	IIc	female
+SKCM018	440.0	alive	77	IIc	male
+SKCM019	476.0	alive	73	IIc	female
+SKCM020	444.0	alive	83	IIc	male
+SKCM021	454.0	alive	40	Iv	female
+SKCM022	409.0	alive	86	IIc	male
+SKCM023	405.0	alive	62	IIb	male
+SKCM024	335.0	alive	61	IIc	male
+SKCM025	325.0	alive	55	III	male
+SKCM026	318.0	alive	76	IIc	female
+SKCM027	447.0	alive	58	IIc	male
+SKCM028	504.0	dead	80	IIIc	female
+SKCM029	507.0	dead	64	IIc	male
+SKCM030	3408.0	alive	53	IIIc	female
+SKCM031	3424.0	dead	60	I/II nos	male
+SKCM032	2184.0	dead	55	III	male
+SKCM033	4053.0	alive	42	Ib	female
+SKCM034	854.0	dead	33	Iv	male
+SKCM035	961.0	dead	72	IIIb	male
+SKCM036	2765.0	alive	55	Ib	male
+SKCM037	2912.0	alive	75	III	female
+SKCM038	1321.0	dead	65	IIb	male
+SKCM039	3136.0	dead	67	IIIc	male
+SKCM040	1992.0	dead	48	Ib	male
+SKCM041	723.0	dead	75	IIIc	male
+SKCM042	3514.0	alive	68	IIIa	male
+SKCM043	5110.0	dead	70	0	female
+SKCM044	2639.0	alive	53	III	female
+SKCM045	361.0	dead	58	IIIc	male
+SKCM046	841.0	dead	75	IIIc	female
+SKCM047	1888.0	alive	74	Ia	male
+SKCM048	3453.0	dead	30	IIIa	female
+SKCM049	1280.0	alive	68	Ib	male
+SKCM050	368.0	dead	24	IIIc	male
+SKCM051	5219.0	alive	43	I/II nos	female
+SKCM052	2022.0	dead	46	III	female
+SKCM053	2010.0	alive	50	IIIc	female
+SKCM054	1812.0	alive	37	IIIc	male
+SKCM055	3976.0	alive	63	IIb	male
+SKCM056	None	alive	-	I/II nos	male
+SKCM057	None	alive	-	I/II nos	female
+SKCM058	1766.0	dead	54	Ib	female
+SKCM059	1429.0	alive	57	III	female
+SKCM060	1409.0	alive	58	IIIc	female
+SKCM061	5065.0	alive	39	I/II nos	male
+SKCM062	2644.0	alive	69	IIc	female
+SKCM063	1832.0	dead	74	III	female
+SKCM064	746.0	dead	61	IIIc	female
+SKCM065	422.0	dead	70	IIIa	male
+SKCM066	284.0	dead	47	III	male
+SKCM067	3151.0	alive	43	III	male
+SKCM068	1209.0	alive	53	IIIa	male
+SKCM069	1378.0	alive	39	IIIb	female
+SKCM070	5318.0	alive	39	I/II nos	female
+SKCM071	1695.0	alive	51	IIIc	male
+SKCM072	None	alive	-	0	male
+SKCM073	1714.0	alive	60	IIIc	male
+SKCM074	4414.0	alive	19	III	male
+SKCM075	1002.0	alive	51	IIIb	male
+SKCM076	688.0	alive	56	Iv	female
+SKCM077	1941.0	alive	60	IIa	male
+SKCM078	818.0	alive	59	IIIc	female
+SKCM079	3826.0	alive	74	Ib	male
+SKCM080	4129.0	alive	15	I	female
+SKCM081	4195.0	alive	61	II	male
+SKCM082	5424.0	alive	23	III	female
+SKCM083	553.0	alive	58	Iv	male
+SKCM084	487.0	alive	43	IIIc	male
+SKCM085	3808.0	alive	36	Ib	male
+SKCM086	938.0	dead	48	IIIb	male
+SKCM087	2421.0	dead	48	IIIc	male
+SKCM088	718.0	alive	63	IIIc	female
+SKCM089	804.0	alive	26	Iv	male
+SKCM090	1780.0	dead	68	Ia	male
+SKCM091	7342.0	alive	18	II	male
+SKCM092	5177.0	alive	45	IIa	male
+SKCM093	2711.0	dead	43	IIIb	male
+SKCM094	3259.0	dead	73	IIb	male
+SKCM095	4897.0	alive	27	I/II nos	female
+SKCM096	None	dead	-	I/II nos	female
+SKCM097	4646.0	alive	77	III	male
+SKCM098	884.0	dead	66	II	male
+SKCM099	3943.0	dead	54	0	female
+SKCM100	3564.0	dead	52	I	male
+SKCM101	5101.0	dead	25	I/II nos	male
+SKCM102	4609.0	alive	40	not reported	male
+SKCM103	1663.0	alive	65	not reported	female
+SKCM104	111.0	alive	82	not reported	male
+SKCM105	216.0	dead	80	not reported	female
+SKCM106	551.0	alive	63	not reported	male
+SKCM107	468.0	dead	66	IIIc	male
+SKCM108	678.0	alive	39	IIIb	female
+SKCM109	519.0	dead	54	IIIc	male
+SKCM110	190.0	dead	50	IIIc	male
+SKCM111	505.0	alive	73	IIIc	female
+SKCM112	218.0	alive	68	IIb	male
+SKCM113	561.0	dead	54	IIIc	male
+SKCM114	301.0	alive	75	IIIa	female
+SKCM115	766.0	alive	70	IIIc	male
+SKCM116	2359.0	alive	56	IIIa	male
+SKCM117	698.0	dead	56	IIIa	male
+SKCM118	2329.0	alive	75	IIIb	female
+SKCM119	820.0	alive	37	IIIb	female
+SKCM120	4407.0	alive	42	III	male
+SKCM121	620.0	dead	63	Iv	male
+SKCM122	6311.0	alive	55	III	male
+SKCM123	5370.0	dead	45	III	male
+SKCM124	1093.0	dead	51	IIIc	male
+SKCM125	3650.0	alive	27	Iv	female
+SKCM126	2246.0	alive	62	IIIb	male
+SKCM127	1640.0	dead	63	IIc	female
+SKCM128	2005.0	dead	32	IIIb	female
+SKCM129	825.0	alive	69	IIIc	female
+SKCM130	2071.0	dead	81	IIIb	male
+SKCM131	1032.0	dead	55	IIIb	male
+SKCM132	319.0	dead	52	IIIb	male
+SKCM133	6873.0	dead	45	I	male
+SKCM134	1319.0	alive	39	IIIb	male
+SKCM135	2193.0	alive	83	IIc	female
+SKCM136	765.0	alive	52	IIIb	male
+SKCM137	1880.0	alive	62	Ib	male
+SKCM138	430.0	dead	68	IIc	male
+SKCM139	396.0	alive	87	Iv	male
+SKCM140	804.0	alive	73	IIb	male
+SKCM141	1039.0	alive	48	IIc	male
+SKCM142	632.0	alive	56	not reported	male
+SKCM143	645.0	alive	72	IIIb	male
+SKCM144	378.0	alive	63	IIa	male
+SKCM145	39.0	alive	37	IIc	male
+SKCM146	796.0	alive	63	II	male
+SKCM147	650.0	alive	74	IIc	male
+SKCM148	1160.0	alive	53	IIc	female
+SKCM149	180.0	alive	77	IIa	female
+SKCM150	278.0	alive	57	IIc	male
+SKCM151	126.0	alive	56	IIc	female
+SKCM152	326.0	dead	86	IIIb	female
+SKCM153	262.0	alive	90	IIc	male
+SKCM154	291.0	alive	76	IIc	female
+SKCM155	721.0	dead	73	IIc	female
+SKCM156	441.0	alive	49	IIIc	male
+SKCM157	-2.0	alive	83	IIc	male
+SKCM158	568.0	alive	34	IIc	male
+SKCM159	205.0	dead	59	IIc	male
+SKCM160	81.0	alive	69	IIb	male
+SKCM161	741.0	alive	58	IIc	female
+SKCM162	422.0	alive	51	IIIc	female
+SKCM163	315.0	dead	52	IIIb	male
+SKCM164	636.0	dead	42	IIIb	female
+SKCM165	774.0	alive	77	IIb	male
+SKCM166	977.0	alive	65	IIIb	female
+SKCM167	620.0	alive	42	IIIc	female
+SKCM168	326.0	dead	82	IIc	male
+SKCM169	777.0	alive	56	IIc	female
+SKCM170	931.0	alive	53	IIc	male
+SKCM171	264.0	dead	75	IIc	female
+SKCM172	590.0	alive	78	IIIc	female
+SKCM173	226.0	alive	62	IIc	male
+SKCM174	472.0	dead	56	IIIb	male
+SKCM175	454.0	dead	65	Iv	female
+SKCM176	619.0	dead	55	III	male
+SKCM177	401.0	dead	73	IIb	male
+SKCM178	369.0	dead	78	IIc	female
+SKCM179	2076.0	alive	57	not reported	female
+SKCM180	1643.0	alive	60	III	female
+SKCM181	891.0	alive	71	III	male
+SKCM182	779.0	alive	48	IIc	female
+SKCM183	1792.0	alive	49	IIc	male
+SKCM184	321.0	dead	56	IIIb	male
+SKCM185	214.0	alive	74	IIIb	female
+SKCM186	1109.0	alive	55	IIIc	male
+SKCM187	382.0	alive	71	IIc	male
+SKCM188	352.0	dead	76	IIa	female
+SKCM189	608.0	dead	58	IIc	female
+SKCM190	390.0	alive	58	III	female
+SKCM191	17.0	alive	70	IIc	female
+SKCM192	362.0	alive	66	IIc	male
+SKCM193	360.0	alive	66	IIb	female
+SKCM194	414.0	alive	66	IIc	male
+SKCM195	907.0	dead	54	Ia	male
+SKCM196	828.0	dead	69	IIIb	male
+SKCM197	263.0	dead	57	IIb	male
+SKCM198	2889.0	dead	69	III	male
+SKCM199	1026.0	dead	82	II	female
+SKCM200	447.0	dead	84	IIIc	female
+SKCM201	818.0	dead	48	0	male
+SKCM202	2073.0	dead	72	Ib	male
+SKCM203	151.0	dead	55	IIIc	female
+SKCM204	4070.0	alive	66	II	female
+SKCM205	4601.0	dead	59	0	male
+SKCM206	2785.0	alive	53	I	male
+SKCM207	5118.0	dead	56	I	male
+SKCM208	412.0	dead	79	Iv	male
+SKCM209	1927.0	dead	68	IIIa	male
+SKCM210	2588.0	dead	67	IIb	male
+SKCM211	2402.0	dead	20	Ib	male
+SKCM212	425.0	dead	87	IIIc	male
+SKCM213	1940.0	alive	54	IIIb	male
+SKCM214	2192.0	dead	53	IIIa	male
+SKCM215	1966.0	alive	59	Ia	female
+SKCM216	79.0	dead	78	IIIc	male
+SKCM217	1729.0	alive	33	Ib	female
+SKCM218	566.0	dead	78	I/II nos	male
+SKCM219	1716.0	alive	73	IIc	female
+SKCM220	2030.0	dead	70	IIb	female
+SKCM221	440.0	alive	48	IIIc	female
+SKCM222	1864.0	dead	79	IIa	male
+SKCM223	11252.0	alive	51	not reported	female
+SKCM224	787.0	dead	85	IIIc	male
+SKCM225	5932.0	alive	42	0	male
+SKCM226	545.0	dead	58	Ib	female
+SKCM227	1424.0	dead	77	IIa	female
+SKCM228	3527.0	alive	46	Ib	male
+SKCM229	1814.0	alive	71	IIIc	male
+SKCM230	1195.0	dead	43	Ib	male
+SKCM231	2620.0	alive	43	Ia	male
+SKCM232	1803.0	alive	51	IIIb	male
+SKCM233	2051.0	alive	82	IIb	male
+SKCM234	10346.0	dead	58	IIb	female
+SKCM235	5286.0	alive	44	I	male
+SKCM236	6699.0	alive	34	I	male
+SKCM237	1482.0	alive	39	Ia	male
+SKCM238	3266.0	dead	83	Ia	male
+SKCM239	1665.0	alive	46	I	female
+SKCM240	2423.0	alive	40	IIa	female
+SKCM241	2296.0	alive	70	IIc	female
+SKCM242	3106.0	dead	67	IIa	male
+SKCM243	3857.0	alive	66	II	female
+SKCM244	423.0	dead	80	IIIb	male
+SKCM245	1301.0	dead	78	II	male
+SKCM246	2470.0	dead	28	Ib	female
+SKCM247	1365.0	alive	77	IIa	male
+SKCM248	2884.0	alive	65	Ia	female
+SKCM249	659.0	dead	49	I	male
+SKCM250	3932.0	alive	61	I	male
+SKCM251	877.0	dead	66	II	male
+SKCM252	601.0	dead	54	III	female
+SKCM253	1871.0	dead	73	I	male
+SKCM254	1438.0	dead	52	II	male
+SKCM255	3141.0	dead	51	I	male
+SKCM256	8174.0	dead	39	I	female
+SKCM257	3139.0	dead	23	I	male
+SKCM258	516.0	dead	66	III	male
+SKCM259	6225.0	dead	43	IIb	male
+SKCM260	2927.0	dead	60	III	male
+SKCM261	5487.0	alive	18	III	female
+SKCM262	6590.0	dead	36	II	male
+SKCM263	5107.0	dead	63	I	female
+SKCM264	1446.0	dead	58	I	male
+SKCM265	7563.0	alive	34	I	female
+SKCM266	1315.0	dead	71	IIIa	female
+SKCM267	4088.0	alive	61	I	male
+SKCM268	4942.0	alive	72	II	male
+SKCM269	2166.0	alive	45	Ib	male
+SKCM270	1620.0	alive	71	Ia	male
+SKCM271	3781.0	alive	47	III	male
+SKCM272	3733.0	alive	30	III	male
+SKCM273	1948.0	alive	47	III	male
+SKCM274	875.0	dead	50	III	male
+SKCM275	420.0	dead	48	IIIc	female
+SKCM276	1265.0	dead	25	III	male
+SKCM277	4222.0	dead	30	II	male
+SKCM278	5237.0	dead	42	Ib	male
+SKCM279	3869.0	dead	72	II	male
+SKCM280	1124.0	dead	71	III	male
+SKCM281	1949.0	alive	43	I	male
+SKCM282	1044.0	dead	59	IIIa	male
+SKCM283	1618.0	dead	45	Ib	male
+SKCM284	6138.0	alive	60	III	female
+SKCM285	832.0	dead	71	III	male
+SKCM286	1562.0	alive	75	IIIb	male
+SKCM287	4086.0	alive	54	Ib	male
+SKCM288	4648.0	dead	48	I	male
+SKCM289	955.0	dead	62	IIb	male
+SKCM290	1354.0	dead	77	not reported	male
+SKCM291	1078.0	dead	46	not reported	male
+SKCM292	1785.0	alive	64	IIc	female
+SKCM293	424.0	dead	83	IIIb	female
+SKCM294	1544.0	dead	45	not reported	male
+SKCM295	279.0	dead	86	IIIc	female
+SKCM296	2365.0	alive	79	Iv	male
+SKCM297	2993.0	dead	42	not reported	male
+SKCM298	1487.0	dead	77	I	male
+SKCM299	383.0	dead	46	Ib	female
+SKCM300	396.0	dead	36	Ib	female
+SKCM301	802.0	dead	82	not reported	male
+SKCM302	9188.0	alive	48	not reported	female
+SKCM303	4634.0	dead	40	not reported	male
+SKCM304	196.0	dead	54	Iv	male
+SKCM305	469.0	dead	79	IIc	female
+SKCM306	4000.0	dead	35	not reported	male
+SKCM307	1857.0	dead	36	Ib	male
+SKCM308	1341.0	dead	47	not reported	male
+SKCM309	None	dead	56	IIIb	male
+SKCM310	4930.0	dead	47	not reported	female
+SKCM311	1548.0	dead	37	not reported	female
+SKCM312	1505.0	alive	81	not reported	female
+SKCM313	270.0	dead	51	Iv	male
+SKCM314	4507.0	dead	48	not reported	female
+SKCM315	3196.0	alive	58	IIIc	male
+SKCM316	857.0	dead	57	IIIb	male
+SKCM317	1333.0	dead	50	Ib	male
+SKCM318	710.0	dead	57	IIIc	female
+SKCM319	613.0	dead	39	0	male
+SKCM320	877.0	dead	53	IIIb	male
+SKCM321	1490.0	dead	43	IIIc	female
+SKCM322	1264.0	alive	49	IIIc	male
+SKCM323	7514.0	dead	25	not reported	male
+SKCM324	2829.0	dead	64	IIIa	female
+SKCM325	1429.0	dead	55	III	male
+SKCM326	1010.0	alive	30	Iv	male
+SKCM327	426.0	dead	77	not reported	male
+SKCM328	394.0	dead	40	IIIc	female
+SKCM329	4533.0	alive	49	II	male
+SKCM330	368.0	dead	49	IIc	female
+SKCM331	685.0	alive	69	IIc	male
+SKCM332	2828.0	alive	44	Ib	male
+SKCM333	None	alive	-	I/II nos	female
+SKCM334	5299.0	alive	29	II	female
+SKCM335	478.0	alive	34	IIIc	female
+SKCM336	305.0	dead	90	IIc	male
+SKCM337	583.0	alive	54	IIIb	female
+SKCM338	6716.0	alive	38	I	female
+SKCM339	847.0	alive	50	IIIc	male
+SKCM340	571.0	alive	63	IIIc	female
+SKCM341	1164.0	alive	65	Ib	female
+SKCM342	1059.0	dead	78	IIb	male
+SKCM343	1103.0	dead	56	IIc	female
+SKCM344	3176.0	alive	41	Ia	male
+SKCM345	6598.0	dead	52	Ib	male
+SKCM346	1478.0	dead	39	I	female
+SKCM347	6953.0	dead	55	IIa	female
+SKCM348	6164.0	dead	32	Ia	female
+SKCM349	636.0	dead	72	Iv	female
+SKCM350	854.0	dead	62	I	male
+SKCM351	237.0	dead	19	IIIc	male
+SKCM352	843.0	dead	45	IIIb	female
+SKCM353	1486.0	dead	57	II	male
+SKCM354	10870.0	dead	51	I/II nos	male
+SKCM355	1628.0	dead	63	IIa	male
+SKCM356	1413.0	dead	40	IIc	male
+SKCM357	470.0	dead	78	IIc	female
+SKCM358	295.0	dead	60	IIIc	female
+SKCM359	996.0	dead	71	Iv	female
+SKCM360	1441.0	dead	75	I	female
+SKCM361	728.0	dead	68	II	male
+SKCM362	3080.0	alive	74	III	male
+SKCM363	730.0	dead	43	IIIa	male
+SKCM364	2273.0	dead	52	II	male
+SKCM365	4062.0	dead	31	I/II nos	male
+SKCM366	347.0	dead	36	II	male
+SKCM367	4526.0	alive	54	I	male
+SKCM368	1617.0	alive	55	III	male
+SKCM369	808.0	dead	70	IIc	female
+SKCM370	1505.0	alive	65	IIIb	male
+SKCM371	824.0	dead	71	IIb	male
+SKCM372	822.0	dead	54	IIb	female
+SKCM373	2367.0	alive	67	IIb	female
+SKCM374	1525.0	dead	46	IIc	female
+SKCM375	2028.0	dead	64	II	male
+SKCM376	874.0	dead	77	Ib	female
+SKCM377	5318.0	dead	52	I	male
+SKCM378	1035.0	alive	80	IIIc	male
+SKCM379	813.0	dead	46	III	female
+SKCM380	1655.0	dead	75	IIa	female
+SKCM381	2454.0	dead	39	IIIc	male
+SKCM382	531.0	alive	59	Iv	female
+SKCM383	1124.0	alive	68	III	male
+SKCM384	1691.0	dead	72	not reported	female
+SKCM385	411.0	alive	57	IIIb	female
+SKCM386	640.0	alive	71	IIIc	male
+SKCM387	587.0	alive	48	III	female
+SKCM388	21.0	alive	48	IIc	male
+SKCM389	301.0	alive	58	IIIc	female
+SKCM390	591.0	alive	74	IIIc	female
+SKCM391	62.0	alive	62	IIb	female
+SKCM392	480.0	alive	78	IIIb	male
+SKCM393	1070.0	dead	39	IIc	male
+SKCM394	4255.0	alive	47	not reported	female
+SKCM395	467.0	dead	24	Iv	male
+SKCM396	3587.0	dead	60	not reported	male
+SKCM397	2948.0	alive	54	not reported	male
+SKCM398	308.0	dead	45	not reported	male
+SKCM399	1960.0	dead	38	IIIa	male
+SKCM400	1910.0	dead	83	IIb	female
+SKCM401	988.0	dead	63	IIIa	female
+SKCM402	821.0	dead	77	IIIc	male
+SKCM403	1460.0	dead	72	IIc	female
+SKCM404	3708.0	alive	30	III	male
+SKCM405	1197.0	alive	73	IIa	male
+SKCM406	1156.0	alive	61	Ib	female
+SKCM407	317.0	dead	56	IIIc	female
+SKCM408	1487.0	alive	51	not reported	male
+SKCM409	673.0	dead	71	IIIc	male
+SKCM410	1524.0	dead	70	Ib	male
+SKCM411	650.0	dead	68	IIc	female
+SKCM412	772.0	alive	68	IIc	male
+SKCM413	1807.0	dead	59	Ia	female
+SKCM414	7.0	alive	59	not reported	female
+SKCM415	2004.0	dead	46	IIIb	female
+SKCM416	1000.0	alive	90	not reported	female
+SKCM417	524.0	alive	61	IIc	male
+SKCM418	11217.0	alive	24	not reported	female
+SKCM419	9061.0	dead	49	not reported	male
+SKCM420	220.0	alive	49	IIIc	male
+SKCM421	549.0	dead	73	IIIc	male
+SKCM422	6.0	alive	66	not reported	female
+SKCM423	10.0	alive	77	Iv	male
+SKCM424	21.0	alive	71	Iv	male
+SKCM425	None	alive	-	Iv	male
+SKCM426	None	alive	-	not reported	female
+SKCM427	6940.0	alive	63	I	male
+SKCM428	1917.0	dead	60	II	female
+SKCM429	3683.0	dead	66	II	male
+SKCM430	122.0	dead	85	III	male
+SKCM431	2101.0	dead	57	III	male
+SKCM432	3379.0	dead	71	II	male
+SKCM433	1280.0	dead	63	II	male
+SKCM434	6666.0	alive	64	II	male
+SKCM435	3195.0	dead	26	I	male
+SKCM436	731.0	alive	70	IIIb	male
+SKCM437	1492.0	alive	74	IIIc	male
+SKCM438	614.0	alive	85	IIb	male
+SKCM439	1860.0	dead	65	Iv	male
+SKCM440	546.0	alive	80	IIIb	male
+SKCM441	3082.0	alive	70	IIIb	male
+SKCM442	1794.0	alive	57	IIb	male
+SKCM443	2145.0	alive	73	IIIb	female
+SKCM444	1923.0	alive	48	IIa	male
+SKCM445	274.0	dead	49	IIIc	male
+SKCM446	359.0	alive	25	Iv	female
+SKCM447	1089.0	alive	45	IIIb	male
+SKCM448	1506.0	dead	62	IIa	male
+SKCM449	370.0	alive	37	IIIc	male
+SKCM450	1229.0	alive	47	Ia	male
+SKCM451	651.0	alive	84	IIIc	female
+SKCM452	760.0	alive	56	IIIc	female
+SKCM453	11.0	alive	90	II	female
+SKCM454	417.0	alive	81	I	male
+SKCM455	392.0	alive	51	I/II nos	male
+SKCM456	412.0	alive	56	II	female
+SKCM457	393.0	dead	62	II	female
+SKCM458	405.0	alive	76	IIIc	female
+SKCM459	403.0	alive	54	II	female
+SKCM460	210.0	alive	43	Ia	female
+SKCM461	1496.0	alive	75	not reported	male
+SKCM462	None	alive	-	not reported	female
+SKCM463	306.0	alive	67	IIc	male
+SKCM464	1154.0	dead	63	not reported	male
+SKCM465	439.0	alive	63	IIb	female
+SKCM466	839.0	alive	42	IIb	female
+SKCM467	2950.0	alive	58	Ia	male
+SKCM468	486.0	alive	57	Ia	female

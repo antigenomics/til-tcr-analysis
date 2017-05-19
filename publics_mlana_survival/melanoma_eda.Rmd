@@ -1,0 +1,129 @@
+---
+title: Analyzing public and MLANA-specific clonotypes in TCR repertoires extracted
+  from TCGA RNA-Seq data
+output:
+  pdf_document: default
+  html_document: default
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+Looking at public clonotypes in TCGA - clonotypes found in two+ donors have shorter insert size, suggesting a canonical mechanism related to convergent recombination
+
+```{r}
+library(ggplot2)
+library(reshape2)
+library(dplyr)
+library(survminer)
+library(survival)
+
+df = read.table("pooled_tcga_samples.txt", header=T, sep="\t") %>%
+  filter(startsWith(as.character(v), "TRB"))
+
+df$insert.size = pmax(0, pmin(25, with(df, ifelse(DStart<0, JStart-VEnd - 1, DStart-VEnd+JStart-DEnd - 2))))
+df$public_tcga = df$incidence > 1
+
+ggplot(df, aes(insert.size, color=public_tcga)) +
+  geom_density() +
+  scale_color_brewer("Public in TCGA", palette = "Paired") +
+  xlab("Number of added N-nucleotides") + ylab("Density") +
+  theme_bw()
+```
+
+Testing relationship between being public in TCGA and matching one of 10000 known public clonotypes or one of 3209 MLANA-specific clonotypes
+
+```{r}
+publics = read.table("publics.txt")
+mlana = read.table("mlana.txt")
+
+df$public = df$cdr3aa %in% publics$V1
+df$mlana = df$cdr3aa %in% mlana$V1
+
+df.1 = df %>%
+  group_by(public_tcga, public) %>%
+  summarize(count = n())
+
+m1 = dcast(df.1, public_tcga ~ public)
+colnames(m1) = paste("public", colnames(m1), sep ="_")
+rownames(m1) = paste("public_tcga", m1[,1], sep ="_")
+m1[,1] = NULL
+print(m1)
+
+fisher.test(m1)
+
+df.2 = df %>%
+  group_by(public_tcga, mlana) %>%
+  summarize(count = n())
+
+m2 = dcast(df.2, public_tcga ~ mlana)
+colnames(m2) = paste("mlana", colnames(m2), sep ="_")
+rownames(m2) = paste("public_tcga", m2[,1], sep ="_")
+m2[,1] = NULL
+print(m2)
+
+fisher.test(m2)
+```
+
+TCGA-public MLANA-specific clonotypes
+
+```{r}
+print(subset(df, public_tcga & mlana) %>% dplyr::select(count,cdr3aa,v,j,incidence))
+```
+
+Per sample annotation using VDJdb-standalone (2 mismatches allowed), appending patient metadata for survival analysis
+
+```{r}
+df.annot = read.table("tcga_mlana_annotation_summary.txt", header=T, sep="\t") %>%
+  filter(db.column.name == "summary" & db.column.value == "found") %>%
+  select(sample_id, reads, unique, frequency)
+
+df.annot.total = read.table("tcga_mlana_annotation_summary.txt", header=T, sep="\t") %>%
+  filter(db.column.name == "summary") %>%
+  group_by(sample_id) %>%
+  summarize(reads_total = sum(reads), unique_total = sum(unique), frequency_total = sum(frequency)) %>%
+  select(sample_id, reads_total, unique_total, frequency_total)
+
+df.annot = merge(df.annot, df.annot.total)
+
+df.conv = read.table("TCGA_to_SKCM.csv", header = T)
+colnames(df.conv) = c("sample_id", "skcm_id")
+df.annot$sample_id = substr(df.annot$sample_id, 1, 12)
+
+df.annot = merge(df.annot, df.conv)
+
+df.meta = read.table("survival.txt", header=F, sep = "\t")
+colnames(df.meta) = c("skcm_id", "survival", "status", "age", "stage", "sex")
+
+df.annot = merge(df.annot, df.meta)
+df.annot$survival = as.numeric(as.character(df.annot$survival))
+```
+
+Survival is correlated with total number of TRB reads and the number of TRB reads coming from MLANA-specific clonotypes. Here we set a threshold as the median of TRB reads.
+
+```{r}
+df.annot$high_reads_total = with(df.annot, reads_total > median(reads_total))
+df.annot$high_reads_mlana = with(df.annot, reads > median(reads))
+fit.1 = survfit(Surv(time = survival, event = status == "dead") ~ high_reads_total,
+               data = df.annot)
+print(fit.1)
+ggsurvplot(fit.1, data = df.annot, risk.table = T, pval = T,
+           ggtheme = theme_minimal(), risk.table.y.text.col = T, risk.table.y.text = F)
+
+fit.2 = survfit(Surv(time = survival, event = status == "dead") ~ high_reads_mlana,
+               data = df.annot)
+print(fit.2)
+ggsurvplot(fit.2, data = df.annot, risk.table = T, pval = T,
+           ggtheme = theme_minimal(), risk.table.y.text.col = T, risk.table.y.text = F)
+```
+
+Using ANOVA analysis and Cox regression, here number of reads is a continuous variable
+
+```{r}
+# Here reads are reads coming from MLANA-specific clonotypes
+# and reads_total are reads from all clonotypes
+
+anova(coxph(formula = Surv(time = survival, event = status == "dead") ~ reads*reads_total,
+               data = df.annot))
+```

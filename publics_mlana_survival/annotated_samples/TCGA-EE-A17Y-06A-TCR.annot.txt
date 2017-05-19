@@ -1,0 +1,2 @@
+count	freq	cdr3nt	cdr3aa	v	d	j	VEnd	DStart	DEnd	JStart	id.in.sample	score	gene	cdr3	species	antigen.epitope	antigen.gene	antigen.species	complex.id	v.segm	j.segm	v.end	j.start	mhc.a	mhc.b	mhc.class	reference.id	vdjdb.score
+1	0.2	TGTGCCAGCAGTTATCAGGGGTATGGCTACACCTTC	CASSYQGYGYTF	TRBV6-5	TRBD1	TRBJ1-2	13	15	20	21	4	10.0	TRB	CASSGTGYGYTF	HomoSapiens	ELAGIGILTV	MLANA	HomoSapiens	0	TRBV5-5*01	TRBJ1-2*01	4	7	HLA-A*02	B2M	MHCI	https://github.com/antigenomics/vdjdb-db/issues/193	0
