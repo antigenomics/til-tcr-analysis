@@ -105,16 +105,27 @@ Survival is correlated with total number of TRB reads and the number of TRB read
 ```{r}
 df.annot$high_reads_total = with(df.annot, reads_total > median(reads_total))
 df.annot$high_reads_mlana = with(df.annot, reads > median(reads))
+df.annot$stage1 = with(df.annot, ifelse(stage %in% c("I", "Ia", "Ib"), "I", 
+                                         ifelse(stage %in% c("II", "IIa", "IIb", "IIc"), "II",
+                                                ifelse(stage %in% c("III", "IIIa", "IIIb", "IIIc"), "III", 
+                                                       ifelse(stage == "Iv", "Iv", NA)))))
+
+fit.0 = survfit(Surv(time = survival, event = status == "dead") ~ stage1,
+               data = df.annot)
+print(fit.0)
+ggsurvplot(fit.0, data = df.annot, risk.table = T, pval = T, break.time.by = 1000,
+           ggtheme = theme_minimal(), risk.table.y.text.col = T, risk.table.y.text = F)
+
 fit.1 = survfit(Surv(time = survival, event = status == "dead") ~ high_reads_total,
                data = df.annot)
 print(fit.1)
-ggsurvplot(fit.1, data = df.annot, risk.table = T, pval = T,
+ggsurvplot(fit.1, data = df.annot, risk.table = T, pval = T, break.time.by = 1000,
            ggtheme = theme_minimal(), risk.table.y.text.col = T, risk.table.y.text = F)
 
 fit.2 = survfit(Surv(time = survival, event = status == "dead") ~ high_reads_mlana,
                data = df.annot)
 print(fit.2)
-ggsurvplot(fit.2, data = df.annot, risk.table = T, pval = T,
+ggsurvplot(fit.2, data = df.annot, risk.table = T, pval = T, break.time.by = 1000,
            ggtheme = theme_minimal(), risk.table.y.text.col = T, risk.table.y.text = F)
 ```
 
@@ -124,6 +135,13 @@ Using ANOVA analysis and Cox regression, here number of reads is a continuous va
 # Here reads are reads coming from MLANA-specific clonotypes
 # and reads_total are reads from all clonotypes
 
+# Total reads is not significant given MLANA (P=0.31)
+
 anova(coxph(formula = Surv(time = survival, event = status == "dead") ~ reads*reads_total,
+               data = df.annot))
+
+# Adding total reads first -- still MLANA reads is near significant P=0.06
+
+anova(coxph(formula = Surv(time = survival, event = status == "dead") ~ reads_total*reads,
                data = df.annot))
 ```
